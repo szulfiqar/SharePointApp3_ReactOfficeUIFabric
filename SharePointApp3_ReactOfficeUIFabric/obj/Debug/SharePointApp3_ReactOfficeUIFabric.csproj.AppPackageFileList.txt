@@ -1,0 +1,1 @@
+D:\Sharepoint Apps training April 2017\SharePointApp3_ReactOfficeUIFabric\SharePointApp3_ReactOfficeUIFabric\bin\Debug\app.publish\1.6.5.0\SharePointApp3_ReactOfficeUIFabric.app

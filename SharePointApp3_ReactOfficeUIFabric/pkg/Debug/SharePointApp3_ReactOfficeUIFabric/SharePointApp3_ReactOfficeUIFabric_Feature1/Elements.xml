@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="RootModule">
+    <File Path="webpack.config.js" Url="webpack.config.js" ReplaceContent="TRUE" />
+    <File Path="gulpfile.js" Url="gulpfile.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\react\dist\react.min.js" Url="node_modules/react/dist/react.min.js" ReplaceContent="TRUE" />
+    <File Path="node_modules\react-dom\dist\react-dom.min.js" Url="node_modules/react-dom/dist/react-dom.min.js" ReplaceContent="TRUE" />
+    <File Path="HTMLPage1.html" Url="HTMLPage1.html" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

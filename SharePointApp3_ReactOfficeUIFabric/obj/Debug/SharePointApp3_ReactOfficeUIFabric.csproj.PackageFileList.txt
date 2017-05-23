@@ -1,0 +1,1 @@
+bin\Debug\SharePointApp3_ReactOfficeUIFabric.wsp

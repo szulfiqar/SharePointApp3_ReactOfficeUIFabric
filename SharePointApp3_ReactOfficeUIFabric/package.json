@@ -1,0 +1,24 @@
+{
+  "name": "reactofficeui",
+  "version": "1.0.0",
+  "description": "this is packages.jascon file description",
+  "private": true,
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "author": "saad",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^15.0.24",
+    "@types/react-dom": "^15.5.0",
+    "office-ui-fabric-react": "^2.29.0",
+    "prop-types": "^15.5.10",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "sp-pnp-js": "^2.0.5"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.2.1",
+    "ts-loader": "^2.0.3"
+  }
+}

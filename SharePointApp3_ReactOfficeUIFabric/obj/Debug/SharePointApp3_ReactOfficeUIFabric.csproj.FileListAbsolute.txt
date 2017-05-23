@@ -1,0 +1,3 @@
+D:\Sharepoint Apps training April 2017\SharePointApp3_ReactOfficeUIFabric\SharePointApp3_ReactOfficeUIFabric\bin\Debug\SharePointApp3_ReactOfficeUIFabric.pdb
+D:\Sharepoint Apps training April 2017\SharePointApp3_ReactOfficeUIFabric\SharePointApp3_ReactOfficeUIFabric\obj\Debug\SharePointApp3_ReactOfficeUIFabric.dll
+D:\Sharepoint Apps training April 2017\SharePointApp3_ReactOfficeUIFabric\SharePointApp3_ReactOfficeUIFabric\obj\Debug\SharePointApp3_ReactOfficeUIFabric.pdb

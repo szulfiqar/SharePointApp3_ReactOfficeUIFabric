@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="ba8bc8f7-23ce-42bb-9e00-ba083b3982cd" 
+        solutionId="ba8bc8f7-23ce-42bb-9e00-ba083b3982cd" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SharePointApp3_ReactOfficeUIFabric"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="6a53a096-03da-4d02-9023-ab34f6c8632b" />
+  </features>
+</package>

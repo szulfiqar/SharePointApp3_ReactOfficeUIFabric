@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Module Name="Scripts">
+    <File Path="Scripts\App.js" Url="Scripts/App.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\index.d.ts" Url="Scripts/src/index.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\index.tsx" Url="Scripts/src/index.tsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\DetailsListComponent.d.ts" Url="Scripts/src/components/DetailsListComponent.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\DetailsListComponent.tsx" Url="Scripts/src/components/DetailsListComponent.tsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\InputFormComponent.d.ts" Url="Scripts/src/components/InputFormComponent.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\InputFormComponent.tsx" Url="Scripts/src/components/InputFormComponent.tsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\Main.d.ts" Url="Scripts/src/components/Main.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\Main.tsx" Url="Scripts/src/components/Main.tsx" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\well.d.ts" Url="Scripts/src/components/well.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\dist\bundle.js" Url="Scripts/dist/bundle.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\dist\bundle.js.map" Url="Scripts/dist/bundle.js.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\DetailsListComponent.d.ts" Url="Scripts/components/DetailsListComponent.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\InputFormComponent.d.ts" Url="Scripts/components/InputFormComponent.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\components\Main.d.ts" Url="Scripts/components/Main.d.ts" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery.fabric.min.js" Url="Scripts/jquery.fabric.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react.min.js" Url="Scripts/react.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\react-dom.min.js" Url="Scripts/react-dom.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\office-ui-fabric-react.min.js" Url="Scripts/office-ui-fabric-react.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.min.map" Url="Scripts/jquery-3.1.1.slim.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.min.js" Url="Scripts/jquery-3.1.1.slim.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.slim.js" Url="Scripts/jquery-3.1.1.slim.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.map" Url="Scripts/jquery-3.1.1.min.map" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.min.js" Url="Scripts/jquery-3.1.1.min.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.js" Url="Scripts/jquery-3.1.1.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\jquery-3.1.1.intellisense.js" Url="Scripts/jquery-3.1.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\src\components\modalComponent.tsx" Url="Scripts/src/components/modalComponent.tsx" ReplaceContent="TRUE" />
+  </Module>
+</Elements>

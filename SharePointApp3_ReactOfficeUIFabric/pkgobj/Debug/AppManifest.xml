@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--Published:70EDFC97-B41D-43C5-B751-7C00AD999804-->
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest" Name="SharePointApp3_ReactOfficeUIFabric" ProductID="{28b4e396-8598-41e5-b030-de33c8a86bd3}" Version="1.6.5.0" SharePointMinVersion="16.0.0.0">
+  <Properties>
+    <Title>SharePointApp3_ReactOfficeUIFabric</Title>
+    <StartPage>~appWebUrl/Pages/Default.aspx?{StandardTokens}</StartPage>
+  </Properties>
+  <AppPrincipal>
+    <Internal />
+  </AppPrincipal>
+</App>

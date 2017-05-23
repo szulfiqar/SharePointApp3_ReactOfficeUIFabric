@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ba8bc8f7-23ce-42bb-9e00-ba083b3982cd" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="SharePointApp3_ReactOfficeUIFabric_Feature1\Feature.xml" />
+  </FeatureManifests>
+</Solution>

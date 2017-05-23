@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="SharePoint App Feature" Id="6a53a096-03da-4d02-9023-ab34f6c8632b" Scope="Web" Title="SharePointApp3_ReactOfficeUIFabric Feature1" Version="1.6.5.0">
+  <ElementManifests>
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementFile Location="Pages\Default.aspx" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+    <ElementFile Location="Scripts\App.js" />
+    <ElementFile Location="Scripts\src\index.d.ts" />
+    <ElementFile Location="Scripts\src\index.tsx" />
+    <ElementFile Location="Scripts\src\components\DetailsListComponent.d.ts" />
+    <ElementFile Location="Scripts\src\components\DetailsListComponent.tsx" />
+    <ElementFile Location="Scripts\src\components\InputFormComponent.d.ts" />
+    <ElementFile Location="Scripts\src\components\InputFormComponent.tsx" />
+    <ElementFile Location="Scripts\src\components\Main.d.ts" />
+    <ElementFile Location="Scripts\src\components\Main.tsx" />
+    <ElementFile Location="Scripts\src\components\well.d.ts" />
+    <ElementFile Location="Scripts\dist\bundle.js" />
+    <ElementFile Location="Scripts\dist\bundle.js.map" />
+    <ElementFile Location="Scripts\components\DetailsListComponent.d.ts" />
+    <ElementFile Location="Scripts\components\InputFormComponent.d.ts" />
+    <ElementFile Location="Scripts\components\Main.d.ts" />
+    <ElementFile Location="Scripts\jquery.fabric.min.js" />
+    <ElementFile Location="Scripts\react.min.js" />
+    <ElementFile Location="Scripts\react-dom.min.js" />
+    <ElementFile Location="Scripts\office-ui-fabric-react.min.js" />
+    <ElementFile Location="Scripts\jquery-3.1.1.slim.min.map" />
+    <ElementFile Location="Scripts\jquery-3.1.1.slim.min.js" />
+    <ElementFile Location="Scripts\jquery-3.1.1.slim.js" />
+    <ElementFile Location="Scripts\jquery-3.1.1.min.map" />
+    <ElementFile Location="Scripts\jquery-3.1.1.min.js" />
+    <ElementFile Location="Scripts\jquery-3.1.1.js" />
+    <ElementFile Location="Scripts\jquery-3.1.1.intellisense.js" />
+    <ElementFile Location="Scripts\src\components\modalComponent.tsx" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementFile Location="Content\App.css" />
+    <ElementFile Location="Content\fabric.components.min.css" />
+    <ElementFile Location="Content\fabric.min.css" />
+    <ElementFile Location="Content\ReactFabric\fabric.min.css" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementFile Location="Images\AppIcon.png" />
+    <ElementManifest Location="Elements.xml" />
+    <ElementFile Location="webpack.config.js" />
+    <ElementFile Location="gulpfile.js" />
+    <ElementFile Location="node_modules\react\dist\react.min.js" />
+    <ElementFile Location="node_modules\react-dom\dist\react-dom.min.js" />
+    <ElementFile Location="HTMLPage1.html" />
+    <ElementManifest Location="Test App1 Instance\Elements.xml" />
+    <ElementManifest Location="Test App1\Elements.xml" />
+    <ElementFile Location="Test App1\Schema.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="Test App1 Instance\Elements.xml" />
+        <ElementManifest Location="Test App1\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>

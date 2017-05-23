@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6EE03AA0-450D-44D3-82D5-26C9DFA8950D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SharePointApp3_ReactOfficeUIFabric</RootNamespace>
+    <AssemblyName>SharePointApp3_ReactOfficeUIFabric</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetOfficeVersion>16.1</TargetOfficeVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{C1CDDADD-2546-481F-9697-4EA41081F2FC};{14822709-B5A1-4724-98CA-57A101D1B079};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
+    <MinimumOfficeToolsVersion>12.2</MinimumOfficeToolsVersion>
+    <IncludeAssemblyInPackage>False</IncludeAssemblyInPackage>
+    <ProjectMode>SharePointApp</ProjectMode>
+    <AppFeaturePartId>{e5744eab-7fd1-4e1f-bda3-b729b0337ef9}</AppFeaturePartId>
+    <WspPartId>{c6a66afe-586e-4aff-a737-6750cdbda611}</WspPartId>
+    <WorkflowPartId>{9e122ea1-e1f8-4901-8b66-df8ae17a6584}</WorkflowPartId>
+    <CspkgPartId>{272802e3-5161-4f9d-a5b4-c96a171a23a7}</CspkgPartId>
+    <SqlPackagePartId>{8d383aa9-64fb-4a78-bcb0-8385af5bf4d3}</SqlPackagePartId>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="Content\fabric.components.min.css" />
+    <Content Include="Content\fabric.min.css" />
+    <Content Include="Content\ReactFabric\fabric.min.css" />
+    <Content Include="gulpfile.js" />
+    <Content Include="HTMLPage1.html" />
+    <Content Include="node_modules\react-dom\dist\react-dom.min.js" />
+    <Content Include="node_modules\react\dist\react.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\jquery.fabric.min.js" />
+    <Content Include="Scripts\office-ui-fabric-react.min.js" />
+    <Content Include="Scripts\react-dom.min.js" />
+    <Content Include="Scripts\react.min.js" />
+    <Content Include="Test App1\Elements.xml" />
+    <Content Include="Test App1\Schema.xml" />
+    <Content Include="Test App1\Test App1 Instance\Elements.xml" />
+    <Content Include="webpack.config.js" />
+    <None Include="package.json" />
+    <None Include="packages.config" />
+    <None Include="Pages\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{28b4e396-8598-41e5-b030-de33c8a86bd3}</SharePointProjectItemId>
+    </None>
+    <Content Include="Elements.xml" />
+    <Content Include="Pages\Elements.xml" />
+    <Content Include="Pages\Default.aspx" />
+    <None Include="Scripts\jquery-3.1.1.min.map" />
+    <None Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <None Include="SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{80b95aaa-cf1e-4a43-95c8-f41a84e28b62}</SharePointProjectItemId>
+    </None>
+    <None Include="Test App1\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{e679332c-0bbf-46e8-b209-7c60a6b8e2f4}</SharePointProjectItemId>
+    </None>
+    <None Include="Test App1\Test App1 Instance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{0efa0d93-b8f4-4e82-97a9-f44fc35cfa7e}</SharePointProjectItemId>
+    </None>
+    <None Include="tsconfig.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scripts\dist\bundle.js.map" />
+    <None Include="Scripts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{8d383aa9-64fb-4a78-bcb0-8385af5bf4d3}</SharePointProjectItemId>
+    </None>
+    <Content Include="Scripts\dist\bundle.js" />
+    <Content Include="Scripts\Elements.xml" />
+    <Content Include="Scripts\App.js" />
+    <Content Include="Scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Content\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{9fe9f060-621e-44bf-b1a8-087ff6173007}</SharePointProjectItemId>
+    </None>
+    <Content Include="Content\Elements.xml" />
+    <Content Include="Content\App.css" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Images\AppIcon.png">
+      <OpcRelationship>manifest-icon</OpcRelationship>
+    </Content>
+    <Content Include="Images\Elements.xml" />
+    <None Include="Images\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{ef5eaea0-b12b-4782-866d-db12d895ecbf}</SharePointProjectItemId>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Package\Package.package">
+      <PackageId>{ba8bc8f7-23ce-42bb-9e00-ba083b3982cd}</PackageId>
+    </None>
+    <None Include="Package\Package.Template.xml">
+      <DependentUpon>Package.package</DependentUpon>
+    </None>
+    <None Include="Features\Feature1\Feature1.feature">
+      <FeatureId>{6a53a096-03da-4d02-9023-ab34f6c8632b}</FeatureId>
+    </None>
+    <None Include="Features\Feature1\Feature1.Template.xml">
+      <DependentUpon>Feature1.feature</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <AppManifestFile Include="AppManifest.xml">
+      <SubType>Designer</SubType>
+    </AppManifestFile>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\components\DetailsListComponent.d.ts" />
+    <TypeScriptCompile Include="Scripts\components\InputFormComponent.d.ts" />
+    <TypeScriptCompile Include="Scripts\components\Main.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\components\modalComponent.tsx" />
+    <TypeScriptCompile Include="Scripts\src\components\DetailsListComponent.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\components\DetailsListComponent.tsx" />
+    <TypeScriptCompile Include="Scripts\src\components\InputFormComponent.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\components\InputFormComponent.tsx" />
+    <TypeScriptCompile Include="Scripts\src\components\Main.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\components\Main.tsx" />
+    <TypeScriptCompile Include="Scripts\src\components\well.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\index.d.ts" />
+    <TypeScriptCompile Include="Scripts\src\index.tsx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Scripts\Build\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\SharePointTools\Microsoft.VisualStudio.SharePoint.targets" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup>
+    <PreBuildEvent>copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric\dist\css\fabric.min.css" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Content"
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric\dist\css\fabric.components.min.css" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Content"
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric-react\dist\css\fabric.min.css" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Content\ReactFabric"
+
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric\dist\js\jquery.fabric.min.js" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Scripts"
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\react\dist\react.min.js" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Scripts"
+
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\react-dom\dist\react-dom.min.js" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Scripts"
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric-react\dist\reactmin.js" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Scripts"
+copy "$(SolutionDir)SharePointApp3_ReactOfficeUIFabric\node_modules\office-ui-fabric-react\dist\office-ui-fabric-react.min.js" "$(SolutionDir)\SharePointApp3_ReactOfficeUIFabric\Scripts"</PreBuildEvent>
+  </PropertyGroup>
+</Project>
